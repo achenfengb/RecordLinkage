@@ -11,7 +11,7 @@ The two parties are called as geneator and evaluator in garbled circuit protocol
 
 To start the run the record linkage program, enter into the program folder, and start one party (generator or evaluator) program:
 ```
->>java -jar dist/PatientLinkageGC.jar -config <config> -data <data>
+>>java -jar dist/PatientLinkageGC.jar -config <config file> -data <data file>
 ```
 
 Example
