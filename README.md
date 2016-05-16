@@ -59,3 +59,6 @@ the results will be saved is this file.
 **rule:**
 rule stands for the criterion (combination of properties) for matching. Here, the numbers in the left of ->  are character lengths of corresponding property, and the number in the right is the weight of this rule. For example, ‚”3  0  6 -> 1” means the rule contain 3 characters of 1st property, 6 characters of 3rd property, and the rule weight is 1. Note, if the character number of the property contains “S”,  this property will be encoded by soundex method, and the number immediate after S means concatenating with first length of this property. For example, “S3” means encode the property by soundex + the first three character of this property. If the weight is 0, then the garbled circuit will declare a match of two records if one of these rules from the two records are equal.
 
+Contact
+---
+If you have any question or bug report, feel free to email me at *f4chen@ucsd.edu*.
